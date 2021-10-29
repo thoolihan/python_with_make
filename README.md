@@ -1,5 +1,5 @@
 # Python with Make
-Simple project to see how to setup python with make, especially when using virtual environments
+Simple demo project showing how to use python virtual environments with make
 
 If you're using as an example, you probably want to look at the [Makefile](Makefile)
 
@@ -13,4 +13,4 @@ make reset
 ```
 
 ## Contact
-tim@hoolihan.net
+[Tim Hoolihan](https://github.com/thoolihan)
