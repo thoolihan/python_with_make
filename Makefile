@@ -5,7 +5,7 @@ SHELL := /bin/bash
 venv = make_sample
 
 $(venv)/touchfile: requirements.txt
-	python3 -mvenv ./$(venv) ; \
+	python3 -mvenv ./$(venv); \
 	source ./$(venv)/bin/activate; \
 	pip install -r requirements.txt; \
 	pip install --upgrade pip; \
